@@ -1,0 +1,100 @@
+site_name: Opam
+site_url: https://patrice-n.github.io/opam/
+theme:
+  language: fr
+  name: material
+  custom_dir: overrides
+  features:
+    - revision.date
+    - revision.history
+  palette:
+    - primary: blue grey
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Préférence système
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/weather-sunny
+        name: Mode jour
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Mode nuit
+repo_url: https://github.com/patrice-n/opam
+edit_uri: edit/main/web/docs
+copyright: Ce site est disponible sous la licence <a href="https://github.com/patrice-n/opam/blob/main/LICENSE">Creative Commons Non Commerciale CC-BY-NC-SA</a> <br/>Copyright &copy; 2024 by <a href="https://github.com/patrice-n/sookloo">https://github.com/patrice-n/sookloo</a>
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6 
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - admonition
+  - markdown_include.include:
+        base_path: docs
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
+
+  # PyMdown Extensions
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      base_path: 
+        - docs
+
+plugins:
+  - offline
+  - search
+  - literate-nav:
+      nav_file: navigation.md
+  - git-revision-date
+  - macros
+  - rss:
+      abstract_chars_count: 160  # -1 for full content
+      abstract_delimiter: <!-- more -->
+      categories:
+        - tags
+      comments_path: "#__comments"
+      date_from_meta:
+        as_creation: "date"
+        as_update: false
+        datetime_format: "%Y-%m-%d %H:%M"
+        default_timezone: Europe/Paris
+        default_time: "09:30"
+      enabled: true
+      feed_ttl: 1440
+      image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
+      length: 20
+      pretty_print: false
+      match_path: ".*"
+      url_parameters:
+        utm_source: "documentation"
+        utm_medium: "RSS"
+        utm_campaign: "feed-syndication"
+  - build_plantuml:
+      render: 'server' # or "local" for local rendering
+      bin_path: '/usr/local/bin/plantuml' # ignored when render: server
+      server: 'http://www.plantuml.com/plantuml' # official plantuml server
+      disable_ssl_certificate_validation: true # for self-signed and invalid certs
+      output_format: 'svg' # or "png"
+      diagram_root: 'docs/diagrams' # should reside under docs_dir
+      output_folder: 'out'
+      input_folder: 'src'
+      input_extensions: '' # comma separated list of extensions to parse, by default every file is parsed
