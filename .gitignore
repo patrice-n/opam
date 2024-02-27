@@ -1,0 +1,8 @@
+opamenv/
+.github/
+.DS_Store
+web/.DS_Store
+web/docs/.DS_Store
+web/docs/opam/.DS_Store
+web/docs/opam/opam-2023/.DS_Store
+web/site
