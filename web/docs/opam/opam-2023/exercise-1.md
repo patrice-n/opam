@@ -62,7 +62,7 @@ $$ \overrightarrow{FE}.\vec{u} = 0 \quad et \quad F \in (AB) $$
 $$ \left\{
     \begin{array}{l}
     e - \frac{1 - \alpha}{d(1 + \alpha)}f + 1 = 0 \\
-    (\amma - e).1 + \frac{1}{d}.f = 0
+    (\gamma - e).1 + \frac{1}{d}.f = 0
     \end{array}
 \right.$$
 
