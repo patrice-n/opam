@@ -4,7 +4,7 @@
 - [Contribuer](support.md)
 - Cours
     - Arithmétique
-        - [Divisibilité](cours/arithmétique/premier-concepts/divisibility.md)
+        - [Divisibilité](course/nt/first-concepts/divisibility.md)
 - Olympiades
     - Opam 2023
         - [Exercice 1](opam/opam-2023/exercise-1.md)

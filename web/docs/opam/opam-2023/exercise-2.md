@@ -4,7 +4,7 @@ comments: true
 
 # <span style="color:#074b83"> Exercice 2 - OPAM 2023 (Arithmétique) </span>
 
-## <span style="color:#0a69b7">L'énoncé</span>
+## <span style="color:#0a69b7">L'énoncé (fourni par [KouakouSchool](https://www.youtube.com/@kouakouschool))</span>
 
 Trouver tous les nombres entiers naturels non nuls $m$ et $n$ qui n'ont pas de diviseur commun plus grand que $1$ tels que:
 
