@@ -20,3 +20,4 @@ Il contiendrait des ressources (cours, astuces) et exercices d'olympiades ou com
 ## Les mis-à-jours
 
 * 27 Février, 2024: Ajout du premier contenu au site [L'exercice 1 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-1)
+* 1er Mars, 2024: Ajout du contenu relatif à [l'exercice 1 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-1)

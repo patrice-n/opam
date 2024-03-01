@@ -25,11 +25,11 @@ theme:
         name: Mode nuit
 repo_url: https://github.com/patrice-n/opam
 edit_uri: edit/main/web/docs
-copyright: Ce site est disponible sous la licence <a href="https://github.com/patrice-n/opam/blob/main/LICENSE">Creative Commons Non Commerciale CC-BY-NC-SA</a> <br/>Copyright &copy; 2024 by <a href="https://github.com/patrice-n/sookloo">https://github.com/patrice-n/sookloo</a>
+copyright: Ce site est disponible sous la licence <a href="https://github.com/patrice-n/opam/blob/main/LICENSE">Creative Commons Non Commerciale CC-BY-NC-SA</a> <br/>Copyright &copy; 2024 by <a href="https://github.com/patrice-n/opam">https://github.com/patrice-n/opam</a>
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6 
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6 # local dev: # javascripts/polyfill.min.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # local dev: # javascripts/tex-mml-chtml.js
 
 markdown_extensions:
   - admonition

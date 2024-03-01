@@ -82,7 +82,7 @@ $$ G\left(g, h\right) \in (BD) \cap (AE) $$
 
 $$ (AE): \quad x + \frac{\alpha + \gamma}{d(1 + \alpha)}y - \gamma = 0 $$
 
-L'équation de la droite $(BD)$ est donnée par la relation (\ref{equation-bd}). Donc:
+L'équation de la droite $(BD)$ est donnée ci-dessus. Donc:
 
 $$ \left\{
     \begin{array}{l}
