@@ -4,7 +4,7 @@ comments: true
 
 # <span style="color:#074b83"> Exercice 1 - OPAM 2023 (Géométrie) </span>
 
-## <span style="color:#0a69b7">L'énoncé</span>
+## <span style="color:#0a69b7">L'énoncé (fourni par [KouakouSchool](https://www.youtube.com/@kouakouschool))</span>
 
 Dans un triangle  $ABC$ tel que $AB < AC, D$ est un point du segment $[AC]$ tel que $BD=CD$. Une droite parallèle à $(BD)$ coupe le segment
  $[BC]$ en  $E$ et coupe la droite  $(AB)$ en  $F$.  $G$ est le point d'intersection des droites  $(AE)$ et  $(BD)$ par  $G$.
