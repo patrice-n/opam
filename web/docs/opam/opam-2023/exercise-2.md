@@ -6,9 +6,11 @@ comments: true
 
 ## <span style="color:#0a69b7">L'énoncé (fourni par [KouakouSchool](https://www.youtube.com/@kouakouschool))</span>
 
-Trouver tous les nombres entiers naturels non nuls $m$ et $n$ qui n'ont pas de diviseur commun plus grand que $1$ tels que:
+!!! question "Enoncé de l'exercice"
 
-$$m^3 + n^3 \quad \textrm{divise} \quad m^2 + 20mn + n^2.$$
+	Trouver tous les nombres entiers naturels non nuls $m$ et $n$ qui n'ont pas de diviseur commun plus grand que $1$ tels que:
+
+	$$m^3 + n^3 \quad \textrm{divise} \quad m^2 + 20mn + n^2.$$
 
 ## <span style="color:#0a69b7">Une solution (Utilisation d'une identité remarquable)</span>
 
@@ -118,22 +120,24 @@ Donc, avec $m \geq n$, on a:
 
 Pour chaque valeur de $(m, n)$ nous vérifions si $m^2 - mn + n^2 | 21mn$. Ainsi, le tableau suivant permet de voir les résultats.
 
-$$
-\begin{array}{|c|c|c|c|c|c|}
-\hline
-m + n & m & n & m^2 - mn + n^2 & 21mn & m^2 - mn + n^2 | 21mn\\ \hline
-2 & 1 & 1 & 1 &  21 & vrai \\
-3 & 2 & 1 & 3 &  21*2 & vrai \\
-6 & 5 & 1 & 21 &  21*5 & vrai \\
-9 & 8 & 1 & 57=3*19 &  21*8*1 & faux \\
-9 & 7 & 2 & 39=3*13 &  21*7*2 & faux \\
-9 & 5 & 4 & 21=7*3 &  21*5*4 & vrai \\
-18 & 17 & 1 & 273=3*7*13 &  21*17 & faux \\
-18 & 13 & 5 & 129=3*43 &  21*13*5 & faux \\
-18 & 11 & 7 & 93=3*31 &  21*11*7 & faux \\
-\hline
-\end{array}
-$$
+!!! abstract "Tableau de divibilité $m^2 - mn + n^2 | 21mn$"
+
+	$$
+	\begin{array}{|c|c|c|c|c|c|}
+	\hline
+	m + n & m & n & m^2 - mn + n^2 & 21mn & m^2 - mn + n^2 | 21mn\\ \hline
+	2 & 1 & 1 & 1 &  21 & vrai \\
+	3 & 2 & 1 & 3 &  21*2 & vrai \\
+	6 & 5 & 1 & 21 &  21*5 & vrai \\
+	9 & 8 & 1 & 57=3*19 &  21*8*1 & faux \\
+	9 & 7 & 2 & 39=3*13 &  21*7*2 & faux \\
+	9 & 5 & 4 & 21=7*3 &  21*5*4 & vrai \\
+	18 & 17 & 1 & 273=3*7*13 &  21*17 & faux \\
+	18 & 13 & 5 & 129=3*43 &  21*13*5 & faux \\
+	18 & 11 & 7 & 93=3*31 &  21*11*7 & faux \\
+	\hline
+	\end{array}
+	$$
 
 Donc:
 
@@ -144,18 +148,22 @@ $$
 Réciproquement, $(m,n) \in \{(1,1), (2, 1), (1, 2), (5, 1), (1, 5)\}$ est tel que $m^3+n^3$ divise $m^2+20mn+n^2$. Cependant,
 si $(m,n) \in \{(5, 4), (4, 5)\}$ alors $m^3+n^3$ ne divise pas $m^2+20mn+n^2$. Cela se voit d'après le tableau suivant:
 
-$$
-\begin{array}{|c|c|c|c|c|}
-\hline
-m & n & m^3 + n^3 & m^2 + 20mn + n^2 & m^3+n^3 | m^2 + 20mn + n^2\\ \hline
-1 & 1 & 2 & 22 & vrai \\
-2 & 1 & 9 & 45 & vrai \\
-5 & 1 & 126 & 126 & vrai \\
-5 & 4 & 189=9*3*7 & 441=9*7*7 & faux \\
-\hline
-\end{array}
-$$
+!!! abstract "Tableau de divibilité  $m^3+n^3 | m^2 + 20mn + n^2$"
+
+	$$
+	\begin{array}{|c|c|c|c|c|}
+	\hline
+	m & n & m^3 + n^3 & m^2 + 20mn + n^2 & m^3+n^3 | m^2 + 20mn + n^2\\ \hline
+	1 & 1 & 2 & 22 & vrai \\
+	2 & 1 & 9 & 45 & vrai \\
+	5 & 1 & 126 & 126 & vrai \\
+	5 & 4 & 189=9*3*7 & 441=9*7*7 & faux \\
+	\hline
+	\end{array}
+	$$
 
 Ainsi, nous pouvons conclure que les valeurs des entiers naturels non nuls $m$ et $n$ qui n'ont pas de diviseur commun plus grand que $1$ tels que: $m^3 + n^3$ divise $m^2+20mn+n^2$ sont:
 
-$$ (1,1), (2, 1), (1, 2), (5, 1), (1, 5) $$
+!!! abstract "Valeurs solutions au problème"
+
+	$$ (1,1), (2, 1), (1, 2), (5, 1), (1, 5) $$

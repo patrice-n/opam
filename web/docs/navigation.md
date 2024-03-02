@@ -9,3 +9,4 @@
     - Opam 2023
         - [Exercice 1](opam/opam-2023/exercise-1.md)
         - [Exercice 2](opam/opam-2023/exercise-2.md)
+        - [Exercice 3](opam/opam-2023/exercise-3.md)

@@ -1,4 +1,4 @@
-# Bienvenue sur une page web des opam
+# Bienvenue sur cette page web dédiée à la préparation aux OPAM
 
 Ce site web se veut être un outil d'aide à la préparation aux OPAM (Olympiades Panafricaines de Mathématiques).
 Il contiendrait des ressources (cours, astuces) et exercices d'olympiades ou compétitions de mathématiques (énoncés et/ou solutions).
@@ -19,6 +19,7 @@ Il contiendrait des ressources (cours, astuces) et exercices d'olympiades ou com
 
 ## Les mis-à-jours
 
-* 27 Février, 2024: Ajout du premier contenu au site [L'exercice 1 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-1)
+* 27 Février, 2024: Ajout du premier contenu au site [l'exercice 1 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-1)
 * 1er Mars, 2024: Ajout du contenu relatif à [l'exercice 2 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-2)
 * 1er Mars, 2024: Ajout du contenu relatif à [la divisibilité](https://patrice-n.github.io/opam/course/nt/first-concepts/divisibility)
+* 2 Mars, 2024: Mis-à-jour du contenu relatif à [la divisibilité](https://patrice-n.github.io/opam/course/nt/first-concepts/divisibility) et ajout du contenu relatif à [l'exercice 3 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-3)
