@@ -128,7 +128,7 @@ La démonstration de ces résultats repose sur l'utilisation de l'inégalité $[
     
     $$\frac{1}{\alpha}+\frac{1}{\beta} = 1$$ 
 
-!!! info "Démonstration."
+!!! info "Démonstration"
 
     _Supposons que $\alpha$ et $\beta$ sont irrationnels vérifiant $\frac{1}{\alpha} + \frac{1}{\beta} = 1$._ 
     
@@ -163,6 +163,100 @@ La démonstration de ces résultats repose sur l'utilisation de l'inégalité $[
     ce qui démontre la deuxième condition.
 
     Supposons maintenant par l'absurde que $\alpha$ soit rationnel. Alors, il en est de même de $\beta$ d'après la relation précédente. Écrivons $\alpha = \frac{a}{b}$ et $\beta = \frac{c}{d}$. L'entier $ac$ est élément de $S_{\alpha}$ (en prenant $n=bc$) et également élément de $S_{\beta}$ (en prenant $n=ad$), ce qui est contradictoire.
+
+## <span style="color:#0a69b7">PGCD et PPCM</span>
+
+### <span style="color:#0c87eb">Notions</span>
+
+!!! note "Définition"
+
+    Soient $a$ et $b$ deux entiers non tous deux nuls. L'ensemble des diviseurs communs de $a$ et de $b$ est fini et non vide, il possède donc un plus grand élément appelé _plus grand commun diviseur (PGCD)_ de $a$ et $b$ et noté $PGCD(a,b)$.
+    
+    Lorsque $PGCD(a,b) = 1$, on dit que $a$ et $b$ sont premiers entre eux.
+
+    De même, l'ensemble des multiples communs de $a$ et $b$ (dans le cas où les deux sont positifs), admet donc un plus petit élément qu'on appelle _plus petit commun multiple (PPCM)_ de $a$ et de $b$ et on le note $PPCM(a, b)$
+
+!!! tip "Propriétes"
+
+    * Si $d = PGCD(a,b)$, alors $n$ divise $a$ et $b$ si et seulement si $n$ divise $d$.
+    * Si $m = PPCM(a,b)$, alors $n$ est un multiple de $a$ et de $b$ si et seulement si $n$ est un multiple de $m$.
+    * Si $a$, $b$ et $n$ sont des entiers non nuls et $n > 0$, alors $PGCD(na,nb)=nPGCD(a,b)$. Si de plus $n$ divise $a$ et $b$ alors $PGCD(\frac{a}{n}, \frac{b}{n}) = \frac{1}{n}PGCD(a,b)$.
+    * Si $d = PGCD(a,b)$, on peut écrire $a=da'$ et $b=db'$ pour $a'$ et $b'$ des nombres premiers entre eux.
+    * Pour $a$ et $b$ des entiers, l'égalité $PGCD(a,b)=PGCD(a,a+b)$ est toujours vérifiée lorsqu'elle a un sens. En particulier, le $PGCD$ de deux nombres consécutifs est $1$ et plus généralement, le $PGCD$ de $a$ et $a+n$ est un diviseur positif de $n$.
+    * Plus généralement, si $x$, $y$, $a$, $b$, $a'$ et $b'$ des entiers, alors:
+
+        $$PGCD(x,y) | PGCD(ax+by, a'x+b'y) | (ab' - ba')PGCD(x,y)$$
+
+        En particulier, si $|ab'-ba'| = 1$, alors $PGCD(x,y) = PGCD(ax + by, a'x + b'y)$
+
+!!! warning "Remarque"
+
+    Pour prouver l'égalité de deux $PGCD$, une méthode efficace est de montrer que chacun divise l'autre.
+
+!!! info "Demonstration de $PGCD(x,y) | PGCD(ax+by, a'x+b'y) | (ab' - ba')PGCD(x,y)$"
+
+    Soient $x$, $y$, $a$, $b$, $a'$ et $b'$ des entiers, alors si on écrit $d = PGCD(x,y)$, alors $d | x$ et $d | y$. Ainsi:
+
+    $$d | ax+by \quad \textrm{et} \quad d | a'x+b'y \quad \textrm{cela implique que} \quad d | PGCD(ax+by, a'x+b'y)$$
+
+    Avec $d' = PGCD(ax+by, a'x+b'y)$, on a $d' | ax+by$ et $d' | a'x+b'y \implies d'| b'(ax+by) - b(a'x+b'y) = (ab'-ba')x$ et $d'| a(a'x+b'y) - a'(ax+by) = (ab'-ba')y$, donc:
+
+    $$ d' | PGCD((ab'-ba')x, (ab'-ba')y) = (ab'-ba') PGCD(x,y) $$
+
+    Par conséquent:
+
+    $$PGCD(x,y) | PGCD(ax+by, a'x+b'y) | (ab' - ba')PGCD(x,y)$$
+
+    Et lorsque $|ab'-ba'| = 1$, cela implique que: $PGCD(x,y) | PGCD(ax+by, a'x+b'y) | PGCD(x,y)$ d'où: $PGCD(x,y) = PGCD(ax + by, a'x + b'y)$.
+
+!!! tip "Propriétés classiques"
+
+    * Si $a$ et $b$ sont des entiers non nuls alors $PGCD(a^{n}, b^{n}) = PGCD(a,b)^{n}$ pour tout entier $n \geq 0$
+    * Si $a$, $b$ et $c$ sont des entiers non nuls, on a:
+
+        $$ PGCD(a, PPCM(b,c)) = PPCM(PGCD(a,b), PGCD(a,c)) $$
+
+        $$ PPCM(a, PGCD(b,c)) = PGCD(PPCM(a,b), PPCM(a,c)) $$
+
+    * _Théorème de Bézout_: Si $a$ et $b$ sont des entiers premiers entre eux, alors, il existe des entiers $u$ et $v$ tels que
+
+        $$au+bv = 1$$
+
+    * _Lemme de Gauss_: Si des entiers $a, b$ et $c$ sont tels que $a$ divise $bc$ et $a$ est premier avec $b$, alors $a$ divise $c$
+    * Si deux entiers premiers entre eux $a$ et $b$ divisent $n$, alors le produit $ab$ divise également $n$.
+
+Ces prorpriétes sont des résultats dont les démonstrations utilisent des notions telles que la décomposition en facteurs premiers d'entiers et des propriétés de la division euclidienne.
+Ces notions seront présentées plus tard ainsi que quelques démonstrations de propriétés ci-dessus.
+
+### <span style="color:#0c87eb">Exercices</span>
+
+!!! question "Exercice 1"
+
+    On définit le $n$-ième _nombre de Fermat_ par la formule $F_{n} = 2^{2^{n}} + 1$. Montrer que les $F_{n}$ sont deux à deux premiers entre eux.
+
+!!! success "Solution"
+
+    Avec la relation
+
+    $$F_{n+1} - 2 = 2^{2^{n+1}} - 1 = (2^{2^{n}} - 1)(2^{2^{n}}+1) = (F_{n} - 2)F_{n}$$
+
+    On obtient par récurrence:
+
+    $$F_{n+1} - 2 = F_{n}F_{n-1}...F_{0}$$
+
+    Soit $d$ un diviseur commun de $F_{n}$ et $F_{m}$. Supposons par exemple $n < m$. D'après la formule précédente, étant donné que $d$ divise $F_{n}$, il divise $F_{m} - 2$ et donc $2$.
+    La formule des $F_{n}$ montre qu'ils sont tous impairs.
+
+    La seule valeur de $d$ qui correspond est donc $|d| = 1$. Ainsi $F_{n}$ et $F_{m}$ sont premiers entre eux.
+
+!!! question "Exercice 2"
+
+    Soient $a$ et $b$ des nombres premiers entre eux. Montrer que $ab$ et $a + b$ sont aussi premiers entre eux.
+
+!!! success "Solution"
+
+    Soit $d$ un diviseur commun de $ab$ et de $a+b$. Alors $d$ divise $a(a+b) - ab = a^{2}$. De même, $d$ divise $b^{2}$. D'après une des propriétés précédentes, les entiers $a^{2}$ et $b^{2}$ sont premiers entre eux (puisque $a$ et $b$ sont premiers entre eux). Ainsi $d = \pm 1$, ce qui permet de conclure la démonstration.
+
 
 ## <span style="color:#074b83">Bibliographie</span>
 
