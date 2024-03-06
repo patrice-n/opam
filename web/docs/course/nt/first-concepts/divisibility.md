@@ -257,7 +257,6 @@ Ces notions seront présentées plus tard ainsi que quelques démonstrations de 
 
     Soit $d$ un diviseur commun de $ab$ et de $a+b$. Alors $d$ divise $a(a+b) - ab = a^{2}$. De même, $d$ divise $b^{2}$. D'après une des propriétés précédentes, les entiers $a^{2}$ et $b^{2}$ sont premiers entre eux (puisque $a$ et $b$ sont premiers entre eux). Ainsi $d = \pm 1$, ce qui permet de conclure la démonstration.
 
-
 ## <span style="color:#074b83">Bibliographie</span>
 
 * Pierre Bornsztein, Xavier Caruso, Pierre Nolin et Mehdi Tibouchi, [Cours d’arithmétique, première partie](http://igor-kortchemski.perso.math.cnrs.fr/olympiades/Cours/Arithmetique/arithm.pdf), Décembre 2004, consulté le 01/03/2024.
