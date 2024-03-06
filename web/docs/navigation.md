@@ -3,8 +3,9 @@
 - [Navigation](navigation.md)
 - [Contribuer](support.md)
 - Cours
-    - Arithmétique
+     - Arithmétique
         - [Divisibilité](course/nt/first-concepts/divisibility.md)
+        - [Nombres premiers](course/nt/first-concepts/prime-numbers.md)
 - Olympiades
     - Opam 2023
         - [Exercice 1](opam/opam-2023/exercise-1.md)

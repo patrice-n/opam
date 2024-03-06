@@ -24,3 +24,4 @@ Il contiendrait des ressources (cours, astuces) et exercices d'olympiades ou com
 * 1er Mars, 2024: Ajout du contenu relatif à [la divisibilité](https://patrice-n.github.io/opam/course/nt/first-concepts/divisibility)
 * 2 Mars, 2024: Mis-à-jour du contenu relatif à [la divisibilité](https://patrice-n.github.io/opam/course/nt/first-concepts/divisibility) et ajout du contenu relatif à [l'exercice 3 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-3)
 * 5 Mars, 2024: Ajout du contenu relatif à [l'exercice 4 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-4)
+* 6 Mars, 2024: Ajout du contenu relatif aux [nombres premiers](https://patrice-n.github.io/opam/course/nt/first-concepts/prime-numbers)
