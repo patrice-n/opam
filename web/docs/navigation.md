@@ -12,3 +12,4 @@
         - [Exercice 2](opam/opam-2023/exercise-2.md)
         - [Exercice 3](opam/opam-2023/exercise-3.md)
         - [Exercice 4](opam/opam-2023/exercise-4.md)
+        - [Exercice 5](opam/opam-2023/exercise-5.md)
