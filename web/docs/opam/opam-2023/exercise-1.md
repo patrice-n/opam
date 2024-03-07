@@ -17,7 +17,7 @@ comments: true
 
 Ci-dessous se trouve la construction géométrique de la figure résultant du problème posé. Nous avons rajouté le milieu du segment $[BC]$ qu'on appellera $O$, le point $D'$ tel que la distance $OC$ égale à la distance $OD'$ et $D'$ appartient à $[OD)$ et le point $H$, le point de $(FC)$ tel que $(GH)$ est perpendiculaire à $(BC)$.
 
-![file](../../diagrams/out/exercise-1-geo.png "Exercice 1 - Géometrie")
+![file](../../diagrams/out/opam-2023/exercise-1-geo.png "Exercice 1 - Géometrie")
 
 $$ \textrm{Montrons que} \quad \widehat{BCG} = \widehat{BCF} \quad \textrm{c'est-à-dire que} \quad \hat{\alpha} = \hat{\beta}. $$
 
