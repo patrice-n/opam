@@ -48,6 +48,48 @@ Toutes les propriétés listées précédemment sont immédiates, à l’excepti
 
     Si $n^{2} + 1$ divise $n+1$, comme tout est positif, on doit avoir $n^{2}+1 \leq n+1$, ce qui n'est vérifié que pour $n = 1$. On vérifie ensuite que $n=1$ est bien solution.
 
+!!! question "Exercice 3"
+
+    Soient $x$ et $y$ deux entiers. Montrer que $2x+3y$ est divisible par $17$ si et seulement si $9x+5y$ est divisible par $17$.
+
+!!! success "Solution 3"
+
+    On a:
+
+    $$ 17 | (2x+3y) \Rightarrow 17|[13(2x+3y)] $$
+    
+    $$ 17 | (26x+39y) \Rightarrow 17|(26x+39y)-17(x+2y) = 9x + 5y $$ 
+
+    A l'inverse, si $17 | (9x + 5y) \Rightarrow 17|[4(9x+5y)]$, or:
+
+    $$ 17 | (36x + 20y) \Rightarrow 17 | (36x + 20y) - 17(2x+y) = 2x+3y $$
+
+!!! question "Exercice 4"
+
+    Trouver tous les entiers positifs $d$ tels que $d$ divise $n^{2}+1$ et $(n+1)^{2}+1$ pour un certain entier $n$.
+
+!!! success "Solution 4"
+
+    Soit $d | (n^{2} + 1)$ et $d | [(n+1)^{2}+1]$ ou $d | (n^{2} + 2n + 2)$
+
+    Alors:
+
+    \[d | [(n^{2} + 2n + 2) - (n^{2} + 1)]\]
+
+    \[d | (2n+1) \implies d | (4n^{2}+4n+1)\]
+
+    \[d | [4(n^{2} + 2n + 2) - (4n^{2}+4n+1)]\]
+
+    \[d | (4n+7)\]
+
+    Ainsi, 
+
+    \[d | [(4n+7) - 2(2n+1)] \implies d|5\]
+
+    donc $d$ peut être seulement égal à $1$ ou $5$
+
+    En prenant $n=2$, $d = 1$ ou $d = 5$ divisent bien $n^{2} + 1$ et $(n+1)^{2}+1$.
+
 ## <span style="color:#0a69b7">Partie entière</span>
 
 ### <span style="color:#0c87eb">Notions</span>

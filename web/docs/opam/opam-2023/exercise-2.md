@@ -118,7 +118,7 @@ Donc, avec $m \geq n$, on a:
 
 \[(m, n) \in \{(1,1), (2, 1), (5, 1), (8, 1), (7, 2), (5, 4), (17, 1), (13, 5), (11, 7)\} \]
 
-Pour chaque valeur de $(m, n)$ nous vérifions si $m^2 - mn + n^2 | 21mn$. Ainsi, le tableau suivant permet de voir les résultats.
+Pour chaque valeur de $(m, n)$, nous vérifions si $m^2 - mn + n^2 | 21mn$. Ainsi, le tableau suivant permet de voir les résultats.
 
 !!! abstract "Tableau de divibilité $m^2 - mn + n^2 | 21mn$"
 
