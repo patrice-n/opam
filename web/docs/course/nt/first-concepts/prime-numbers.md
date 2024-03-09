@@ -230,4 +230,4 @@ Mis à part ces résultats, la repartition des nombres premiers est une question
 ## <span style="color:#074b83">Bibliographie</span>
 
 * Pierre Bornsztein, Xavier Caruso, Pierre Nolin et Mehdi Tibouchi, [Cours d’arithmétique, première partie](http://igor-kortchemski.perso.math.cnrs.fr/olympiades/Cours/Arithmetique/arithm.pdf), Décembre 2004, consulté le 06/03/2024.
-* Naoki Sato, [Number Theory](), consulté le .
+* Naoki Sato, [Number Theory](https://artofproblemsolving.com/articles/files/SatoNT.pdf), consulté le 09/03/2024.

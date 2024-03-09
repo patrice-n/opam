@@ -35,9 +35,9 @@ Avec la décomposition en nombre premiers, les valuations sont un moyen d'utilis
 
     et la dernière inégalité est une égalité dès que $v_{p}(a) \neq v_{p}(b)$
 
-Ci-dessous, la formule dite de Légendre qui permet de déterminer la valuation $p$-adiques d'une factorielle. On rappelle que 
+Ci-dessous, la formule dite de Légendre qui permet de déterminer la valuation $p$-adiques d'une factorielle. On rappelle que
 
-    $$n! = 1 \times 2 \times ... \times n$$
+$$ n! = 1 \times 2 \times ... \times n $$
 
 !!! tip "Proposition (Formule de Légendre)"
 
@@ -57,7 +57,7 @@ Ci-dessous, la formule dite de Légendre qui permet de déterminer la valuation 
 
     D'autre part, les entiers dont la valuation excède $i$ sont exactement les multiples de $p^{i}$ et sont au nombre de $\left[\frac{n}{p^{i}}\right]$ entre $1$ et $n$. D'où:
 
-    $$\[\frac{n}{p^{i}}\] = n_{i} + n_{i+1} + n_{i+2} ...$$
+    $$\left[\frac{n}{p^{i}}\right] = n_{i} + n_{i+1} + n_{i+2} ...$$
 
     En mettant ensemble ces deux formules, on obtient
 
@@ -73,7 +73,7 @@ Ci-dessous, la formule dite de Légendre qui permet de déterminer la valuation 
 
     Comme l'entier $10$ n'est pas un nombre premier, on ne peut pas directement appliquer la formule de Legendre. En décomposant $10$ en facteurs premiers, on se rend compte que le plus grand exposant $n$ tel que $10^{n}$ divise $2004!$ est le plus petit des deux nombres $v_{2}(2004!)$ et $v_{5}(2004!)$. En effet, il sera le plus grand exposant $n$ tel que $2^{n}$ divise $2004!$ et $5^{n}$ divise $2004!$. La formule de Legendre prouve directement que c'est $v_{5}(2004!)$. Il vaut:
 
-    $$v_{5}(2004!) = \[\frac{2004}{5}\] + \[\frac{2004}{25}\] + \[\frac{2004}{125}\] + \[\frac{2004}{625}\] + \[\frac{2004}{3125}\] + ... $$
+    $$v_{5}(2004!) = \left[\frac{2004}{5}\right] + \left[\frac{2004}{25}\right] + \left[\frac{2004}{125}\right] + \left[\frac{2004}{625}\right] + \left[\frac{2004}{3125}\right] + ... $$
 
     \[v_{5}(2004!) = 400 + 80 + 16 + 3 + 0 + ... = 499\]
 
