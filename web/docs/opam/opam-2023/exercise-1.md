@@ -15,13 +15,13 @@ comments: true
 
 ## <span style="color:#0a69b7">Une solution (utilisation d'un repère orthonormal)</span>
 
-Ci-dessous se trouve la construction géométrique de la figure résultant du problème posé. Nous avons rajouté le milieu du segment $[BC]$ qu'on appellera $O$, le point $D'$ tel que la distance $OC$ égale à la distance $OD'$ et $D'$ appartient à $[OD)$ et le point $H$, le point de $(FC)$ tel que $(GH)$ est perpendiculaire à $(BC)$.
+Ci-dessous se trouve la construction géométrique de la figure résultant du problème posé. Nous avons rajouté le milieu du segment $[BC]$ qu'on appellera $O$, le point $D$ tel que la distance $OC$ égale à la distance $OD$ et $D$ appartient à $[OD)$ et le point $H$, le point de $(FC)$ tel que $(GH)$ est perpendiculaire à $(BC)$.
 
 ![file](../../diagrams/out/opam-2023/exercise-1-geo.png "Exercice 1 - Géometrie")
 
 $$ \textrm{Montrons que} \quad \widehat{BCG} = \widehat{BCF} \quad \textrm{c'est-à-dire que} \quad \hat{\alpha} = \hat{\beta}. $$
 
-Pour cela, nous allons considérer le repère orthonormal formé par les points $O$, $C$ et $D'$. Il s'agit bien d'un repère orthonormal car la droite $(OD)$ est perpendiculaire à la droite $(OC)$ puisque $(OD)$ est la médiatrice du segment $[BC]$ ($O$ est milieu de $[BC]$ et $BD = CD$) et la distance $OD'$ est égale à la distance $OC$.
+Pour cela, nous allons considérer le repère orthonormal formé par les points $O$, $C$ et $D$. Il s'agit bien d'un repère orthonormal car la droite $(OD)$ est perpendiculaire à la droite $(OC)$ puisque $(OD)$ est la médiatrice du segment $[BC]$ ($O$ est milieu de $[BC]$ et $BD = CD$) et la distance $OD$ est égale à la distance $OC$.
 
 Les coordonnées des différents points $A, B, C, D, E$ et $O$ sont les suivants.
 

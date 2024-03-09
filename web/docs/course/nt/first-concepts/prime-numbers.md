@@ -52,7 +52,7 @@ L'utilité des nombres premiers n'est pas à démontrer de sorte que la plupart 
 
 ### <span style="color:#0c87eb">Exercices</span>
 
-!!! question "Exemple"
+!!! question "Exercice"
 
     Montrer que $131$ est un nombre premier.
 
@@ -215,11 +215,11 @@ Mis à part ces résultats, la repartition des nombres premiers est une question
 
 ### <span style="color:#0c87eb">Exercices</span>
 
-!!! question
+!!! question "Exercice"
 
     Montrer qu'il existe une infinité de nombres premiers de la forme $4n+3$.
 
-!!! solution
+!!! success "Solution"
 
     On raisonne par l'absurde en supposant qu'il n'existe qu'un nombre fini de nombres premiers de cette forme, notés $p_{1}, p_{2}, ..., p_{k}$. On considère alors $N = 4p_{1}p_{2}...p_{k} - 1$. Les diviseurs premiers de $N$ sont distincts de $2$ et des $p_{i}$ $(1 \leq i \leq k)$, et il en existe un qui est de la forme $4n+3$, car sinon on vérifie immédiatemment que $N$ ne pourrait être de la forme $4n + 3$ (un nombre premier qui n'est de la forme $4n + 3$ est de la forme $4n + 1$ et le produit de tels nombres est encore de cette forme).
 
@@ -230,3 +230,4 @@ Mis à part ces résultats, la repartition des nombres premiers est une question
 ## <span style="color:#074b83">Bibliographie</span>
 
 * Pierre Bornsztein, Xavier Caruso, Pierre Nolin et Mehdi Tibouchi, [Cours d’arithmétique, première partie](http://igor-kortchemski.perso.math.cnrs.fr/olympiades/Cours/Arithmetique/arithm.pdf), Décembre 2004, consulté le 06/03/2024.
+* Naoki Sato, [Number Theory](), consulté le .

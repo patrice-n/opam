@@ -26,7 +26,7 @@ comments: true
 
 ## <span style="color:#0a69b7">Solutions</span>
 
-### <span style="color:#0c87eb">Solution 1 - Changement de variable</span>
+### <span style="color:#0c87eb">Solution 1 - Changement de variable (Proposée)</span>
 
 Définissons la suite numérique $a_n$ telle que pour tout entier naturel $n$,
 
@@ -192,7 +192,7 @@ Donc:
     \label{equation-pb-3-forall-coshlx}
     \end{equation}$$
 
-Car $\forall k \quad \textrm{tel que,} \quad 1 \leq k \leq \left[\frac{n+1}{2}\right]$, $0 \leq n+1-2k \leq n$, l'hypothèse est applicable pour $l=n+1-2k$ et $c_{k}^{n+1} = \binom{n + 1}{k}$ est un entier.
+Car $\forall k \quad \textrm{tel que,} \quad 1 \leq k \leq \left[\frac{n+1}{2}\right]$, $0 \leq n+1-2k \leq n$, l'hypothèse est applicable pour $n+1-2k$ et $c_{k}^{n+1} = \binom{n + 1}{k}$ est un entier.
 
 Aussi,
 
