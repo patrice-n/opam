@@ -135,7 +135,7 @@ Ainsi, cette distribution est une distribution telle que deux pages distinctes o
 
 S'il existe quatre pages telles que le nombre total de timbres est supérieur à $\frac{n}{2}$, en notant les quatre indices des pages comme $i, j, k$ et $l$ avec $i < j < k < l$ alors:
 
-\[i < j < k < l \leq 10 \implies i \leq 7,\quad j \leq 8,\quad k \leq 9 \quad \textrm{et} \quad l \leq 10\]
+\[1 \leq i < j < k < l \leq 10 \implies i \leq 7,\quad j \leq 8,\quad k \leq 9 \quad \textrm{et} \quad l \leq 10\]
 
 Donc:
 

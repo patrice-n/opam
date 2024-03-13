@@ -8,6 +8,7 @@
         - [Nombres premiers](course/nt/first-concepts/prime-numbers.md)
         - [Valuation p-adique](course/nt/first-concepts/p-adic-valuation.md)
         - [Quelques fonctions arithmétiques](course/nt/first-concepts/some-arithm-functions.md)
+        - [Nombres rationnels](course/nt/first-concepts/rationnals-numbers.md)
 - Olympiades
     - Opam 2023
         - [Exercice 1](opam/opam-2023/exercise-1.md)
