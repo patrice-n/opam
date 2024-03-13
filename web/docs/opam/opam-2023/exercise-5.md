@@ -142,7 +142,7 @@ Nous obtenons ainsi le tableau de variation de la fonction polynômiale $P(x)$:
 ![file](../../diagrams/out/opam-2023/exercice-5-tab-variation-first.png "Premier tableau de variation de P(x)")
 
 D'après le tableau de variation de la fonction polynômiale $P(x)$, il existe $r' \in ]0,1[$, tel que $P'(r') = 0$.
-Aussi, selon le signe de $P(r')$, le polynôme $P$ admet soit deux racines réelles distinctes, une racine réelle ou aucune racine réelle. En effet, 
+Aussi, selon le signe de $P(r')$, le polynôme $P$ admet soit deux racines réelles distinctes, une racine réelle ou aucune racine réelle. En effet,
 
 !!! abstract "Equations conditions de signe du polynôme $P(x)$"
 
@@ -167,7 +167,7 @@ La dernière implication de la relation sur les conditions de signes du polynôm
 
 D'après l'hypothèse, les racines de $P$ sont réelles et strictement positives. D'après la deuxième relation sur les conditions de signes du polynôme $P(x)$, $P$ admet une seule racine réelle $r' \in ]0,1[$. Ainsi, il s'agit d'une racine de multiplicité $4$. La dernière équation de la relation racines coefficients implique donc que: $4r'=4 \implies r'=1$. Ce qui est absurde car  $0 < r' < 1$.
 
-Enfin, selon la dernière relation sur les conditions de signes du polynôme $P(x)$, $P$ admet deux racines réelles $r_{(1)} \in ]0,1[$ et $r_{(2)} \in ]0,1[$. Ainsi, il s'agit de racines de multiplicités combinées $m_{(1)}$ et $m_{(2)}$ égale à $4$, c'est-à-dire $m_{(1)} + m_{(2)} = 4$. La dernière équation des relations acines coefficients implique donc que: $m_{(1)}r_{(1)} + m_{(2)}r_{(2)} =4$. Or:
+Enfin, selon la dernière relation sur les conditions de signes du polynôme $P(x)$, $P$ admet deux racines réelles $r_{(1)} \in ]0,1[$ et $r_{(2)} \in ]0,1[$. Ainsi, il s'agit de racines de multiplicités combinées $m_{(1)}$ et $m_{(2)}$ égale à $4$, c'est-à-dire $m_{(1)} + m_{(2)} = 4$. La dernière équation des relations racines coefficients implique donc que: $m_{(1)}r_{(1)} + m_{(2)}r_{(2)} =4$. Or:
 
 \[0 < r_{(1)} < 1 \quad \textrm{et} \quad 0 < r_{(2)} < 1 \implies 0 < m_{(1)}r_{(1)} + m_{(2)}r_{(2)} < m_{(1)} + m_{(2)} = 4 \]
 
@@ -315,7 +315,7 @@ Et avec, $\Omega$ l'ensemble des permutations de $\{1, 2, 3, 4\}$ et $x_{1}, x_{
 
 \[\left[c\right] = \frac{1}{4!}\sum_{\sigma \in \Omega} x_{\sigma_{1}}^{2}x_{\sigma_{2}}^{0}x_{\sigma_{3}}^{0}x_{\sigma_{4}}^{0} \quad \textrm{,} \quad \left[d\right] = \frac{1}{4!}\sum_{\sigma \in \Omega} x_{\sigma_{1}}^{1}x_{\sigma_{2}}^{1}x_{\sigma_{3}}^{0}x_{\sigma_{4}}^{0}\]
 
-Donc:
+Donc, avec les notations de la remarque sur l'Inégalité de Muirhead et des moyennes arithmétique géométrique:
 
 \[\left[c\right] = \frac{3!}{4!}\sum_{\sigma \in \Omega} x_{\sigma_{1}}^{2} =  \frac{1}{4}\sum_{\sigma \in \Omega} x_{\sigma_{1}}^{2} \quad \textrm{,} \quad \left[d\right] = \frac{2!*2!}{4!}\sum_{\sigma \in \Omega} x_{\sigma_{1}}^{1}x_{\sigma_{2}}^{1} = \frac{1}{6}\sum_{\sigma \in \Omega} x_{\sigma_{1}}x_{\sigma_{2}}\]
 
@@ -375,7 +375,7 @@ Cette dernière implication ainsi que la démonstration de la réciproque effect
 
     L'IAG (inégalité de la moyenne arithmétique géométrique) peut être déduite de l'inégalité de Muirhead. En effet, l'on peut prendre 
 
-    \[c = \left(\frac{1}{n}, ...,\frac{1}{n}\right)\quad \textrm{} \quad d = (1, 0, 0, ...,0)\]
+    \[c = \left(\frac{1}{n}, ...,\frac{1}{n}\right)\quad \textrm{pour} \quad d = (1, 0, 0, ...,0)\]
 
     Pour plus de détails sur l'inégalité de Muirhead, se reférer à la page wikipédia suivante [Inégalité de muirhead](https://fr.wikipedia.org/wiki/Inégalité_de_Muirhead).
 

@@ -22,9 +22,21 @@ Nous comprenons par fonctions arithmétiques, les fonctions qui permettent d'eff
 
     * la fonction $P$ qui à $n$ associe le produit des diviseurs positifs de $n$
 
+    * La fonction $\phi$ qui associe à $n$, le nombre d'entiers positifs plus petits que $n$ et qui sont premiers avec le nombre $n$
+
 !!! warning "Remarque"
 
-    Les notations introduites précédemment sont traditionnelles mais ne sont pas universelles. Elles seront normalement reprécisées à chaque nouvelle apparition (ou utilisation). De même, si nous sommes amenés à utiliser ces fonctions, il est souhaitable de redonner rapidement la définition avant pour fixer les notations.
+    * Les notations introduites précédemment sont traditionnelles mais ne sont pas universelles. Elles seront normalement reprécisées à chaque nouvelle apparition (ou utilisation). De même, si nous sommes amenés à utiliser ces fonctions, il est souhaitable de redonner rapidement la définition avant pour fixer les notations.
+
+    * Une fonction est dite multiplicative si
+
+    $$ f(mn) = f(m)f(n) $$
+
+    Pour tous entiers $m$ et $n$ premiers entre eux et $f(1)=1$ (autrement $f(1) = 0$ qui implique que pour tout entier $n$, $f(n)=0$).
+
+!!! tip "Théorème"
+
+    Les fonctions  $d$, $\phi$, $P$ et $\sigma_{s}$ sont multiplicatives. 
 
 En utilisant la décomposition en facteurs premiers des entiers naturels, les fonctions arithmétiques ont les expressions suivantes:
 
@@ -38,9 +50,11 @@ En utilisant la décomposition en facteurs premiers des entiers naturels, les fo
 
     $$ P(n) = n^{\frac{d(n)}{2}}$$
 
+    $$ \phi(n) = \left(1 - \frac{1}{p_{1}}\right)\left(1 - \frac{1}{p_{2}}\right)...\left(1 - \frac{1}{p_{k}}\right)n = p_{1}^{e_{1}-1}p_{2}^{e_{2}-1}...p_{k}^{e_{k}-1}(p_{1}-1)(p_{2}-1)...(p_{k}-1)$$
+
 !!! success "Démonstration"
 
-    On ne démontre que l'expression de $P$ qui est la plus difficile, les autres se traitant de façon analogue.
+    On ne démontre que l'expression de $P$, les autres se traitant de façon analogue.
 
     Un diviseur positif de $n$ s'écrit $p_{1}^{\beta_{1}}...p_{k}^{\beta_{k}}$ où $0 \leq \beta_{i} \leq \alpha_{i}$. Le produit de tous ces nombres est de la forme:
 
@@ -72,6 +86,34 @@ En utilisant la décomposition en facteurs premiers des entiers naturels, les fo
 
     $$ d(n) = (\alpha_{1}+1)...(\alpha_{k}+1) $$
 
+    Pour enfin démontrer l'expression de $\phi(n)$, nous savons que pour tout entier premier $p$, 
+
+    $$ \phi(p) = p - 1 = \left(1 - \frac{1}{p}\right)p $$
+
+    En effet, comme $p$ est un nombre premier, tous les entiers naturels plus petits que $p$ sont premiers avec $p$. D'où:
+
+    $$\phi(p) = p - 1 $$
+
+    Donc si $n$ est un entier naturel dont la décompostion en facteurs premiers est
+
+    $$n = p_{1}^{\alpha_{1}}...p_{k}^{\alpha_{k}}$$
+
+    Donc:
+
+    $$ \phi(n) = \phi(p_{1}^{\alpha_{1}})...\phi(p_{k}^{\alpha_{k}}) $$
+
+    On montre que:
+
+    $$ \phi(p^{\alpha}) = (p - 1) p^{\alpha - 1} $$
+
+    En effet, l'ensemble des entiers qui sont premiers avec $p^{\alpha}$ et plus petits que $p^{\alpha}$ est l'ensemble des entiers qui sont premiers avec $p$ et plus petit que $p^{\alpha}$. Ainsi, en déterminant le nombre d'éléments $n_{p^{\alpha}}$ de l'ensemble $\{x = py, x \leq p^{\alpha}\}$, on pourra déduire la valeur de $\phi(p^{\alpha})$.
+
+    $$ n_{p^{\alpha}} = p^{\alpha - 1} $$
+
+    Puisque le nombre d'éléments de l'ensemble $\{x = py, x \leq p^{\alpha}\}$ est le même que le nombre d'éléments de l'ensemble $\{x \quad \textrm{entier}, \quad x \leq p^{\alpha - 1}\}$. Pour conclure:
+
+    $$ \phi(n) = (p_{1}-1)p^{\alpha_{1} - 1}...(p_{k}-1)p^{\alpha_{k} - 1} = \left(1 - \frac{1}{p_{1}}\right)...\left(1 - \frac{1}{p_{k}}\right)n $$
+
 ### <span style="color:#0c87eb">Exercices</span>
 
 !!! question "Exercice 1"
@@ -90,4 +132,25 @@ En utilisant la décomposition en facteurs premiers des entiers naturels, les fo
 
     Le nombre de solution est donc $d(n^{2})$.
 
+!!! question "Exercice 2"
+
+    Soit $n$ un entier positif. Montrer que:
+
+    $$ \sum_{d|n}\phi(d) = n $$
+
+!!! success "Solution 2"
+
+    Pour un diviseur $d$ de $n$, soit $S_{d}$ l'ensemble de tous les entiers $a, 1 \leq a \leq n$, tels que $PGCD(a, n) = \frac{n}{d}$. Ainsi $S_{d}$ consiste en l'ensemble de tous les éléments de la forme $b.\frac{n}{d}$, où $0 \leq b \leq d$, et $PGCD(b,d)=1$, ainsi $S_{d}$ contient $\phi(d)$ éléments. Aussi, il est clair que chaque entier entre $1$ et $n$ appartient à un unique $S_{d}$. 
+
+    Ainsi, si on note $n_{d}$ le nombre d'éléments de $S_{d}$, pour tout $d$ diviseur de $n$:
+
+    $$ n = \sum_{d|n} n_{d} $$
+
+    D'où:
+
+    $$ n = \sum_{d|n} \phi(d) $$
+
+## <span style="color:#074b83">Bibliographie</span>
+
 * Pierre Bornsztein, Xavier Caruso, Pierre Nolin et Mehdi Tibouchi, [Cours d’arithmétique, première partie](http://igor-kortchemski.perso.math.cnrs.fr/olympiades/Cours/Arithmetique/arithm.pdf), Décembre 2004, consulté le 10/03/2024.
+* Naoki Sato, [Number Theory](https://artofproblemsolving.com/articles/files/SatoNT.pdf), consulté le 13/03/2024.
