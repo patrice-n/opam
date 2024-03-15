@@ -28,4 +28,4 @@ Il contiendrait des ressources (cours, astuces) et exercices d'olympiades ou com
 * 7 Mars, 2024: Ajout du contenu relatif à [l'exercice 5 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-5)
 * 9 Mars, 2024: Ajout du contenu relatif à [la valuation p-adique](https://patrice-n.github.io/opam/course/nt/first-concepts/p-adic-valuation) et mis-à-jour du contenu relatif à [la divisibilité](https://patrice-n.github.io/opam/course/nt/first-concepts/divisibility)
 * 10 Mars, 2024: Ajout du contenu relatif à [quelques fonctions arithmétiques](https://patrice-n.github.io/opam/course/nt/first-concepts/some-arithm-functions)
-* 12 Mars, 2024: Ajout du contenu relatif aux [nombres rationnels](https://patrice-n.github.io/opam/course/nt/first-concepts/rationnals-numbers)
+* 13 Mars, 2024: Ajout du contenu relatif aux [nombres rationnels](https://patrice-n.github.io/opam/course/nt/first-concepts/rationnals-numbers) et mis-à-jour du contenu relatif à [quelques fonctions arithmétiques](https://patrice-n.github.io/opam/course/nt/first-concepts/some-arithm-functions)
