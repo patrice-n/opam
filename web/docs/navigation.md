@@ -4,12 +4,15 @@
 - [Contribuer](support.md)
 - Cours
      - Arithmétique
-        - [Divisibilité](course/nt/first-concepts/divisibility.md)
-        - [Nombres premiers](course/nt/first-concepts/prime-numbers.md)
-        - [Valuation p-adique](course/nt/first-concepts/p-adic-valuation.md)
-        - [Quelques fonctions arithmétiques](course/nt/first-concepts/some-arithm-functions.md)
-        - [Nombres rationnels](course/nt/first-concepts/rationnals-numbers.md)
-- Olympiades
+        - Premiers concepts
+            - [Divisibilité](course/nt/first-concepts/divisibility.md)
+            - [Nombres premiers](course/nt/first-concepts/prime-numbers.md)
+            - [Valuation p-adique](course/nt/first-concepts/p-adic-valuation.md)
+            - [Quelques fonctions arithmétiques](course/nt/first-concepts/some-arithm-functions.md)
+            - [Nombres rationnels](course/nt/first-concepts/rationnals-numbers.md)
+            - Exercices
+                - [Série d'exercices 1](course/nt/first-concepts/exercises/exercises-first-sequence.md)
+- Olympiade
     - Opam 2023
         - [Exercice 1](opam/opam-2023/exercise-1.md)
         - [Exercice 2](opam/opam-2023/exercise-2.md)

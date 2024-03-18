@@ -24,7 +24,7 @@ comments: true
 
     où les $p_{i}$ sont des nombres premiers deux à deux distincts et où les $\alpha_{i}$ sont des entiers relatifs.
 
-!!! success "Démonstration"
+???- success "Démonstration"
 
     La démonstration est une conséquence presque directe de la propriété analogue pour les nombres entiers.
 
@@ -146,7 +146,7 @@ comments: true
 
     Montrer que si $n \geq 2$ et $a > 0$ sont des entiers, alors $\sqrt[n]{a}$ est soit un entier, soit un nombre irrationnel.
 
-!!! success "Solution"
+???- success "Solution"
 
     Supposons que $\sqrt[n]{a}$ soit un nombre rationnel. On peut alors écrire pour tout nombre premier $p$:
 
@@ -164,7 +164,7 @@ Une propriété des rationnels souvent utile pour les passages à la limite (et 
 
 On dit, dans cette situation, que $\mathbb{Q}$ est dense dans $\mathbb{R}$.
 
-!!! success "Démonstration"
+???- success "Démonstration"
 
     Soit $q$ un entier strictement supérieur à $\frac{1}{\epsilon}$ et $p = [qx]$. On a l'encadrement $p \leq qx \leq p+1$ et donc en divisant par $q$:
 

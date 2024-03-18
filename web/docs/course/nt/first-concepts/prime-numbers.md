@@ -17,7 +17,7 @@ L'utilité des nombres premiers n'est pas à démontrer de sorte que la plupart 
 
     Un nombre qui n'est pas premier est appelé _nombre composé_.
 
-!!! question "Exemples"
+!!! example "Exemples"
 
     $1$ n'est pas premier.
     
@@ -29,7 +29,7 @@ L'utilité des nombres premiers n'est pas à démontrer de sorte que la plupart 
 
     Soit $n > 1$ un entier. Son plus petit diviseur $d > 1$ est un nombre premier. Si de plus $n$ est composé, alors $d \leq \sqrt{n}$.
 
-!!! success "Démonstration"
+???- success "Démonstration"
 
     Supposons que $d$ ne soit pas premier. Alors par définition, il existe un diviseur strict $d'$ de $d$. Mais alors $d' divise $n$, d' > 1$ et $d' < d$, ce qui contredit la minimalité de $d$.
 
@@ -56,7 +56,7 @@ L'utilité des nombres premiers n'est pas à démontrer de sorte que la plupart 
 
     Montrer que $131$ est un nombre premier.
 
-!!! success "Solution"
+???- success "Solution"
 
     On a $\sqrt{131} < \sqrt{144} = 12$, donc on cherche les entiers entre $2$ et $11$ et plus précisement les entiers premiers entre $2$ et $11$, qui sont $2, 3, 5, 7, 11$.
     Aucun de ces entiers premiers ne divise $131$, ainsi $131$ est un entier premier.
@@ -83,7 +83,7 @@ La démonstration pourra être présentée plus tard.
 
     Le théorème reste vrai pour $n = 1$: il faut poser $k = 0$, le produit d'aucun entier étant par convention égal à $1$.
 
-!!! success "Démonstration"
+???- success "Démonstration"
 
     Commençons par l'existence de cette décomposition. Nous allons raisonner par récurrence sur $n$. 
 
@@ -165,7 +165,7 @@ Si l'on remarque que pour $\alpha$ et $\beta$ des entiers (ou réels), on a touj
 
     Il existe une infinité de nombres premiers.
 
-!!! success "Démonstration"
+???- success "Démonstration"
 
     On raisonne par l'absurde. On suppose qu'il n'existe qu'un nombre fini d'entiers premiers, disons $p_{1}, p_{2}, ..., p_{k}$. On peut alors exhiber un entier qui n'est divisible par aucun de ces nombres premiers, ce qui est contradictoire compte tenu du fait que cet entier possède un diviseur premier. En effet, considérons $N = p_{1}p_{2}...p_{k}+1$: si $p_{i} (1 \leq i \leq k)$ divisait $N$, alors $p_{i}$ diviserait $1$, ce qui est absurde.
 
@@ -181,7 +181,7 @@ Sur la rarefaction des nombres premiers, la propriété suivante est utile.
 
     soient tous composés.
 
-!!! success "Démonstration"
+???- success "Démonstration"
 
     Soit $k$ un entier, on pose $n = (k+1)! + 1.$. Alors, pour $i \in \{1, ..., n+k\}$, on a: 
 
@@ -201,7 +201,7 @@ Sur la rarefaction des nombres premiers, la propriété suivante est utile.
 
     Pour tout entier $k$, il existe un nombre premier $p$ tel que tous les nombres $p+1, ..., p+k$ soient composés.
 
-!!! success "Démonstration"
+???- success "Démonstration"
 
     Soit $k$ un entier naturel, une idée de démonstration consiste à supposer par absurde que pour tout nombre premier $p$, il existe $i \in \{1, ..., k\}$ tel que $p + i$ soit premier.
 
@@ -219,7 +219,7 @@ Mis à part ces résultats, la repartition des nombres premiers est une question
 
     Montrer qu'il existe une infinité de nombres premiers de la forme $4n+3$.
 
-!!! success "Solution"
+???- success "Solution"
 
     On raisonne par l'absurde en supposant qu'il n'existe qu'un nombre fini de nombres premiers de cette forme, notés $p_{1}, p_{2}, ..., p_{k}$. On considère alors $N = 4p_{1}p_{2}...p_{k} - 1$. Les diviseurs premiers de $N$ sont distincts de $2$ et des $p_{i}$ $(1 \leq i \leq k)$, et il en existe un qui est de la forme $4n+3$, car sinon on vérifie immédiatemment que $N$ ne pourrait être de la forme $4n + 3$ (un nombre premier qui n'est de la forme $4n + 3$ est de la forme $4n + 1$ et le produit de tels nombres est encore de cette forme).
 

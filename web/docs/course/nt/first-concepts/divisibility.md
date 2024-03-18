@@ -36,7 +36,7 @@ Toutes les propriétés listées précédemment sont immédiates, à l’excepti
 
     Soient $x$ et $y$ des entiers. Montrer que $2x+3y$ est divisible par $7$ si et seulement si $5x+4y$ l'est.
 
-!!! success "Solution 1"
+???- success "Solution 1"
 
     Supposons que $7$ divise $2x+3y$, alors il divise $6(2x+3y)-7(x+2y)=5x+4y$. Réciproquement si $7$ divise $5x+4y$, il divise $6(5x+4y) - 7(4x+3y)=2x+3y$.
 
@@ -44,7 +44,7 @@ Toutes les propriétés listées précédemment sont immédiates, à l’excepti
 
     Pour quels entiers $n$ strictement positifs, le nombre $n^{2}+1$ divise-t-il $n+1$ ?
 
-!!! success "Solution 2"
+???- success "Solution 2"
 
     Si $n^{2} + 1$ divise $n+1$, comme tout est positif, on doit avoir $n^{2}+1 \leq n+1$, ce qui n'est vérifié que pour $n = 1$. On vérifie ensuite que $n=1$ est bien solution.
 
@@ -52,7 +52,7 @@ Toutes les propriétés listées précédemment sont immédiates, à l’excepti
 
     Soient $x$ et $y$ deux entiers. Montrer que $2x+3y$ est divisible par $17$ si et seulement si $9x+5y$ est divisible par $17$.
 
-!!! success "Solution 3"
+???- success "Solution 3"
 
     On a:
 
@@ -68,7 +68,7 @@ Toutes les propriétés listées précédemment sont immédiates, à l’excepti
 
     Trouver tous les entiers positifs $d$ tels que $d$ divise $n^{2}+1$ et $(n+1)^{2}+1$ pour un certain entier $n$.
 
-!!! success "Solution 4"
+???- success "Solution 4"
 
     Soit $d | (n^{2} + 1)$ et $d | [(n+1)^{2}+1]$ ou $d | (n^{2} + 2n + 2)$
 
@@ -138,7 +138,7 @@ La démonstration de ces résultats repose sur l'utilisation de l'inégalité $[
 
     \[[\sqrt{n} + \sqrt{n+1}] = [\sqrt{4n+2}] \]
 
-!!! success "Solution"
+???- success "Solution"
 
     Remarquons tout d'abord que l'inégalité suivante est toujours vraie:
 
@@ -235,7 +235,7 @@ La démonstration de ces résultats repose sur l'utilisation de l'inégalité $[
 
     Pour prouver l'égalité de deux $PGCD$, une méthode efficace est de montrer que chacun divise l'autre.
 
-!!! info "Demonstration de $PGCD(x,y) | PGCD(ax+by, a'x+b'y) | (ab' - ba')PGCD(x,y)$"
+???- success "Demonstration de $PGCD(x,y) | PGCD(ax+by, a'x+b'y) | (ab' - ba')PGCD(x,y)$"
 
     Soient $x$, $y$, $a$, $b$, $a'$ et $b'$ des entiers, alors si on écrit $d = PGCD(x,y)$, alors $d | x$ et $d | y$. Ainsi:
 
@@ -276,7 +276,7 @@ Ces notions seront présentées plus tard ainsi que quelques démonstrations de 
 
     On définit le $n$-ième _nombre de Fermat_ par la formule $F_{n} = 2^{2^{n}} + 1$. Montrer que les $F_{n}$ sont deux à deux premiers entre eux.
 
-!!! success "Solution"
+???- success "Solution"
 
     Avec la relation
 
@@ -295,7 +295,7 @@ Ces notions seront présentées plus tard ainsi que quelques démonstrations de 
 
     Soient $a$ et $b$ des nombres premiers entre eux. Montrer que $ab$ et $a + b$ sont aussi premiers entre eux.
 
-!!! success "Solution"
+???- success "Solution"
 
     Soit $d$ un diviseur commun de $ab$ et de $a+b$. Alors $d$ divise $a(a+b) - ab = a^{2}$. De même, $d$ divise $b^{2}$. D'après une des propriétés précédentes, les entiers $a^{2}$ et $b^{2}$ sont premiers entre eux (puisque $a$ et $b$ sont premiers entre eux). Ainsi $d = \pm 1$, ce qui permet de conclure la démonstration.
 

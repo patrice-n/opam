@@ -49,7 +49,7 @@ $$ n! = 1 \times 2 \times ... \times n $$
 
     Lorsque $p^{i} > n$, le nombre $\left[\frac{n}{p^{i}}\right] = 0$. Ceci assure qu'il n'y a bien qu'un nombre fini de termes non nuls dans la somme précédente.
 
-!!! success "Démonstration"
+???- success "Démonstration"
 
     Pour un entier positif ou nul $i$, appelons $n_{i}$ le nombre d'entiers compris entre $1$ et $n$ dont la valuation $p$-adique est _exactement_ $i$. On a alors:
 
@@ -69,7 +69,7 @@ $$ n! = 1 \times 2 \times ... \times n $$
 
     Par combien de zéros se termine le nombre $2004!$ ?
 
-!!! success "Solution"
+???- success "Solution"
 
     Comme l'entier $10$ n'est pas un nombre premier, on ne peut pas directement appliquer la formule de Legendre. En décomposant $10$ en facteurs premiers, on se rend compte que le plus grand exposant $n$ tel que $10^{n}$ divise $2004!$ est le plus petit des deux nombres $v_{2}(2004!)$ et $v_{5}(2004!)$. En effet, il sera le plus grand exposant $n$ tel que $2^{n}$ divise $2004!$ et $5^{n}$ divise $2004!$. La formule de Legendre prouve directement que c'est $v_{5}(2004!)$. Il vaut:
 
