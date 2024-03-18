@@ -19,13 +19,24 @@ Il contiendrait des ressources (cours, astuces) et exercices d'olympiades ou com
 
 ## Les mis-à-jours
 
-* 27 Février, 2024: Ajout du premier contenu au site [l'exercice 1 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-1)
-* 1er Mars, 2024: Ajout du contenu relatif à [l'exercice 2 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-2)
-* 1er Mars, 2024: Ajout du contenu relatif à [la divisibilité](https://patrice-n.github.io/opam/course/nt/first-concepts/divisibility)
-* 2 Mars, 2024: Mis-à-jour du contenu relatif à [la divisibilité](https://patrice-n.github.io/opam/course/nt/first-concepts/divisibility) et ajout du contenu relatif à [l'exercice 3 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-3)
-* 5 Mars, 2024: Ajout du contenu relatif à [l'exercice 4 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-4)
-* 6 Mars, 2024: Ajout du contenu relatif aux [nombres premiers](https://patrice-n.github.io/opam/course/nt/first-concepts/prime-numbers)
-* 7 Mars, 2024: Ajout du contenu relatif à [l'exercice 5 - OPAM 2023](https://patrice-n.github.io/opam/opam/opam-2023/exercise-5)
-* 9 Mars, 2024: Ajout du contenu relatif à [la valuation p-adique](https://patrice-n.github.io/opam/course/nt/first-concepts/p-adic-valuation) et mis-à-jour du contenu relatif à [la divisibilité](https://patrice-n.github.io/opam/course/nt/first-concepts/divisibility)
-* 10 Mars, 2024: Ajout du contenu relatif à [quelques fonctions arithmétiques](https://patrice-n.github.io/opam/course/nt/first-concepts/some-arithm-functions)
-* 13 Mars, 2024: Ajout du contenu relatif aux [nombres rationnels](https://patrice-n.github.io/opam/course/nt/first-concepts/rationnals-numbers) et mis-à-jour du contenu relatif à [quelques fonctions arithmétiques](https://patrice-n.github.io/opam/course/nt/first-concepts/some-arithm-functions)
+<details open>
+<summary>Février</summary>
+    <ul>
+        <li>27 Février, 2024: Ajout du premier contenu au site <a href="https://patrice-n.github.io/opam/opam/opam-2023/exercise-1">l'exercice 1 - OPAM 2023</a></li>
+    </ul>
+</details>
+<details open>
+<summary>Mars</summary>
+    <ul>
+        <li>1er Mars, 2024: Ajout du contenu relatif à <a href="https://patrice-n.github.io/opam/opam/opam-2023/exercise-2">l'exercice 2 - OPAM 2023</a></li>
+        <li>1er Mars, 2024: Ajout du contenu relatif à <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/divisibility">la divisibilité</a></li>
+        <li>2 Mars, 2024: Mis-à-jour du contenu relatif à <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/divisibility">la divisibilité</a> et ajout du contenu relatif à <a href="https://patrice-n.github.io/opam/opam/opam-2023/exercise-3">l'exercice 3 - OPAM 2023</a></li>
+        <li>5 Mars, 2024: Ajout du contenu relatif à <a href="https://patrice-n.github.io/opam/opam/opam-2023/exercise-4">l'exercice 4 - OPAM 2023</a></li>
+        <li>6 Mars, 2024: Ajout du contenu relatif aux <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/prime-numbers">nombres premiers</a></li>
+        <li>7 Mars, 2024: Ajout du contenu relatif à <a href="https://patrice-n.github.io/opam/opam/opam-2023/exercise-5">l'exercice 5 - OPAM 2023</a></li>
+        <li>9 Mars, 2024: Ajout du contenu relatif à <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/p-adic-valuation">la valuation p-adique</a> et mis-à-jour du contenu relatif à <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/divisibility">la divisibilité</a></li>
+        <li>10 Mars, 2024: Ajout du contenu relatif à <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/some-arithm-functions">quelques fonctions arithmétiques</a></li>
+        <li>13 Mars, 2024: Ajout du contenu relatif aux <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/rationnals-numbers">nombres rationnels</a> et mis-à-jour du contenu relatif à <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/some-arithm-functions">quelques fonctions arithmétiques</a></li>
+        <li>18 Mars, 2024: Ajout du contenu relatif à la <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/exercises/exercises-first-sequence">première série d'exercices premiers concepts arithmétique</a></li>
+    <ul>
+</details>

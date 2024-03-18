@@ -52,7 +52,7 @@ En utilisant la décomposition en facteurs premiers des entiers naturels, les fo
 
     $$ \phi(n) = \left(1 - \frac{1}{p_{1}}\right)\left(1 - \frac{1}{p_{2}}\right)...\left(1 - \frac{1}{p_{k}}\right)n = p_{1}^{e_{1}-1}p_{2}^{e_{2}-1}...p_{k}^{e_{k}-1}(p_{1}-1)(p_{2}-1)...(p_{k}-1)$$
 
-!!! success "Démonstration"
+???- success "Démonstration"
 
     On ne démontre que l'expression de $P$, les autres se traitant de façon analogue.
 
@@ -122,7 +122,7 @@ En utilisant la décomposition en facteurs premiers des entiers naturels, les fo
     
     $$ \frac{1}{x} + \frac{1}{y} = \frac{1}{n} $$
 
-!!! success "Solution 1"
+???- success "Solution 1"
 
     L'équation se réécrit sous la forme:
 
@@ -138,7 +138,7 @@ En utilisant la décomposition en facteurs premiers des entiers naturels, les fo
 
     $$ \sum_{d|n}\phi(d) = n $$
 
-!!! success "Solution 2"
+???- success "Solution 2"
 
     Pour un diviseur $d$ de $n$, soit $S_{d}$ l'ensemble de tous les entiers $a, 1 \leq a \leq n$, tels que $PGCD(a, n) = \frac{n}{d}$. Ainsi $S_{d}$ consiste en l'ensemble de tous les éléments de la forme $b.\frac{n}{d}$, où $0 \leq b \leq d$, et $PGCD(b,d)=1$, ainsi $S_{d}$ contient $\phi(d)$ éléments. Aussi, il est clair que chaque entier entre $1$ et $n$ appartient à un unique $S_{d}$. 
 
