@@ -19,7 +19,7 @@ comments: true
 
     alors $d(n)$ est donnée par la formule:
 
-    $$ d(n) = (\alpha_{1} + 1)...(\alpha_{\k}+1) $$
+    $$ d(n) = (\alpha_{1} + 1)...(\alpha_{k}+1) $$
 
     Ainsi ce nombre est impair si et seulement si chacun des facteurs est impair, c'est-à-dire si et seulement si $\alpha_{i}$ est pair pour tout $i$. Ceci est équivalent au fait
     que $n$ soit un carré.
