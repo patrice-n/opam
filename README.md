@@ -38,5 +38,6 @@ Il contiendrait des ressources (cours, astuces) et exercices d'olympiades ou com
         <li>10 Mars, 2024: Ajout du contenu relatif à <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/some-arithm-functions">quelques fonctions arithmétiques</a></li>
         <li>13 Mars, 2024: Ajout du contenu relatif aux <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/rationnals-numbers">nombres rationnels</a> et mis-à-jour du contenu relatif à <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/some-arithm-functions">quelques fonctions arithmétiques</a></li>
         <li>18 Mars, 2024: Ajout du contenu relatif à la <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/exercises/exercises-first-sequence">première série d'exercices premiers concepts arithmétique</a></li>
+        <li>24 Mars, 2024: Ajout du contenu relatif aux solutions de la <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/exercises/exercises-first-sequence">première série d'exercices premiers concepts arithmétique</a> et du contenu relatif à la <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/exercises/exercises-second-sequence">seconde série d'exercices premiers concepts arithmétique</a></li>
     <ul>
 </details>

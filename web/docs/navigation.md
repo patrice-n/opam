@@ -12,6 +12,7 @@
             - [Nombres rationnels](course/nt/first-concepts/rationnals-numbers.md)
             - Exercices
                 - [Série d'exercices 1](course/nt/first-concepts/exercises/exercises-first-sequence.md)
+                - [Série d'exercices 2](course/nt/first-concepts/exercises/exercises-second-sequence.md)
 - Olympiade
     - Opam 2023
         - [Exercice 1](opam/opam-2023/exercise-1.md)
