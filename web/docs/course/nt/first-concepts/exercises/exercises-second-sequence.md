@@ -68,9 +68,9 @@ comments: true
 ???- success "Solution 27"
 
     * __a)__ D'après le principe des tiroirs parmi les $a_{i}$, il y en a deux consécutifs, qui sont donc premiers entre eux.
-    * __b)__ Écrivons pour tout $i$, $a_{i} = 2^{\alpha_{i}}b_{i}$ pour un certain nombre impair $b_{i}$ forcément compris entre $1$ et $2n$. D'après le principe des tiroirs, puisqu'il y a $n$ nombres impairs entre $1$ et $2n$, il existe $i$ et $j$ tels que $b_{i} = b_{j}$. On peut supposer $\alpha_{i} \leq \alpha_{j}$ et dans ce cas $a_{i}$ divise $a_{j}.
+    * __b)__ Écrivons pour tout $i$, $a_{i} = 2^{\alpha_{i}}b_{i}$ pour un certain nombre impair $b_{i}$ forcément compris entre $1$ et $2n$. D'après le principe des tiroirs, puisqu'il y a $n$ nombres impairs entre $1$ et $2n$, il existe $i$ et $j$ tels que $b_{i} = b_{j}$. On peut supposer $\alpha_{i} \leq \alpha_{j}$ et dans ce cas $a_{i}$ divise $a_{j}$.
 
-    __Principe des tiroirs__:
+???- warning "Remarque: Principe des tiroirs"
 
     Si on cherche à ranger $n+1$ chaussettes dans $n$ tiroirs, on sait qu'au moins un tiroir contient au moins deux chaussettes. Ainsi, si on cherche à ranger $n+1$ objets dans $n$ ensembles, au moins un des ensembles contiendra au moins $2$ objets. Plus généralement, si on cherche à ranger au moins $kn+1$ objets dans $n$ ensembles, on sait qu'au moins un des ensembles contient au moins $k+1$ objets.
 
@@ -214,7 +214,7 @@ comments: true
 
     \[sum_{x|\frac{n}{d'}} \mu\left(\frac{n}{d'x}\right) = \sum_{x|\frac{n}{d'}} \mu(x)\]
 
-    la dernière égalité provenant du changement de variable $x \mapsto \frac{n}{d'x}$. D'après $__a)__$, cette somme fait toujours $0$ sauf si $\frac{n}{d'} = 1$ (i.e. $n = d'$) auquel cas elle fait $1$. On trouve ainsi bien la formule annoncée.
+    la dernière égalité provenant du changement de variable $x \mapsto \frac{n}{d'x}$. D'après $a)$, cette somme fait toujours $0$ sauf si $\frac{n}{d'} = 1$ (i.e. $n = d'$) auquel cas elle fait $1$. On trouve ainsi bien la formule annoncée.
 
 !!! example "Exercice $33^{*}$"
 
