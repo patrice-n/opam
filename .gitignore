@@ -1,5 +1,4 @@
 opamenv/
-.github/
 .DS_Store
 web/.DS_Store
 web/docs/.DS_Store
