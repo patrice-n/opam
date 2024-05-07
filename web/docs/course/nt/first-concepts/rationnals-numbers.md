@@ -171,3 +171,7 @@ On dit, dans cette situation, que $\mathbb{Q}$ est dense dans $\mathbb{R}$.
     $$ \frac{p}{q} \leq x \leq \frac{p}{q} + \frac{1}{q} < \frac{p}{q} + \epsilon $$
 
     Ainsi le rationnel $y = \frac{p}{q}$ convient.
+
+## <span style="color:#074b83">Bibliographie</span>
+
+* Pierre Bornsztein, Xavier Caruso, Pierre Nolin et Mehdi Tibouchi, [Cours d’arithmétique, première partie](http://igor-kortchemski.perso.math.cnrs.fr/olympiades/Cours/Arithmetique/arithm.pdf), Décembre 2004, consulté le 07/05/2024.
