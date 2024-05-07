@@ -13,6 +13,7 @@
             - Exercices
                 - [Série d'exercices 1](course/nt/first-concepts/exercises/exercises-first-sequence.md)
                 - [Série d'exercices 2](course/nt/first-concepts/exercises/exercises-second-sequence.md)
+                - [Série d'exercices 3](course/nt/first-concepts/exercises/exercises-third-sequence.md)
 - Olympiade
     - Opam 2023
         - [Exercice 1](opam/opam-2023/exercise-1.md)
