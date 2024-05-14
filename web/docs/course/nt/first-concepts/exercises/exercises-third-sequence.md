@@ -16,6 +16,16 @@ comments: true
 
 ???- success "Solution 51"
 
+    Notons $d = PGCD(a,b)$ et soient $a'$ et $b'$ des entiers tels que $a=da'$ et $b=db'$. L'équation devient:
+
+    \[c(a'+b') = da'b'\]
+
+    d'où on déduit dans un premier temps que $c$ divise $da'b'$. Comme $a, b$ et $c$ sont premiers entre eux dans leur ensemble, $c$ est premier avec $d$ et donc par le lemme de Gauss $c$ divise $a'b'$.
+
+    D'autre part, on déduit également que $a'$ divise $c(a'+b')$, mais comme $a'$ est premier avec $b'$, il est premier avec $a'+b'$ et donc $a'$ divise $c$. De même, on trouve que $b'$ divise $c$. Encore une fois parce que $a'$ et $b'$ sont premiers entre eux, cela implique $a'b'$ divise $c$.
+
+    Les entiers $a'b'$ et $c$ sont positifs et se divisent mutuellement, donc $a'b'=c$ et $a'+b' = d$. En remultipliant par $d$, on trouve finalement $a + b = d^{2}$, ce qui conclut.
+
 !!! example "Exercice $52^{**}$"
 
     Un nombre $n$ est dit _parfait_ si $\sigma(n) = 2n$ (où $\sigma$ désigne la somme des diviseurs positifs). Montrer que:
@@ -25,6 +35,24 @@ comments: true
 
 ???- success "Solution 52"
 
+    __a)__ Supposons que $n$ soit de la forme $2^{k-1}(2^{k}-1)$ avec $2^{k}-1$ premier. On dispose de la décomposition en facteurs premiers de $n$ et donc de l'expression de $\sigma(n)$:
+
+    \[\sigma(n) = \frac{2^{k}-1}{2-1}.\frac{(2^{k} - 1)^{2}-1}{(2^{k}-1)-1} = (2^{k}-1)(2^{k}-1+1) = 2n\]
+
+    Les nombres de cette forme sont donc bien parfaits et pairs (car la condition $2^{k}-1$ premier implique $k \geq 2$).
+
+    Réciproquement, supposons que $n$ soit un nombre parfait pair. Alors $n$ s'écrit $n = 2^{k-1}A$ pour un certain entier $k \geq 2$ et un certain entier positif $A$ impair. Par exemple, en décomposant $A$ en facteurs premiers, on arrive à $\sigma(n) = (2^{k} - 1)\sigma(A)$ ce qui contredit, puisque $n$ est supposé parfait, à:
+
+    \[2^{k}A = (2^{k}-1)\sigma(A)\]
+
+    Comme $2^{k}-1$ est impair (et donc premier avec $2^{k}$), le lemme de Gauss assure que $2^{k} - 1$ divise $A$ et donc que l'on peut écrire $A = a(2^{k}-1)$ pour un certain entier positif $a$. L'égalité du dessus assure $\sigma(A) = A + a$. Puisque $k \geq 2$, les entiers $A$ et $a$ sont distincts et tous deux diviseurs de $A$. Ainsi, comme $1$ est également diviseur de $A$, on doit avoir $a=1$ pour que l'égalité $\sigma(A) = A + a$ soit satisfaite. Cela implique $A = 2^{k}-1$ et $\sigma(A) = A + 1$ et donc $A$ premier. Finalement, $n$ s'écrit bien sous la forme annoncée.
+
+    __b)__ Supposons que $n$ soit impair et ait au plus deux facteurs premiers. Alors on peut écrire $n=p^{a}q^{b}$ pour des nombres premiers impairs distincts $p < q$ et des entiers $a$ et $b$ positifs ou nuls. On a:
+
+    \[\frac{\sigma(n)}{n} = \frac{p^{a+1}-1}{p^{a}(p-1)}\frac{q^{b+1}-1}{q^{b}(q-1)} < \frac{p^{a+1}}{p^{a}(p-1)}\frac{q^{b+1}}{q^{b}(q-1)} = \frac{p}{p-1}\frac{q}{q-1}\]
+
+    D'autre part, on a forcément $p \geq 3$ et $q \geq 5$. Mais alors on obtient $\frac{\sigma(n)}{n} < \frac{3}{2} \times \frac{5}{4} < 2$ et donc $n$ ne peut pas être parfait.
+
 !!! example "Exercice $53^{**}$ (TDV $99$)"
 
     Montrer que si $a$ et $b$ sont des entiers tels que $PPCM(a, a+5) = PPCM(b, b+5)$ alors $a=b$.
@@ -32,6 +60,18 @@ comments: true
     Existe-t-il des entiers strictement positifs $a$, $b$ et $c$ tels que $PPCM(a,b) = PPCM(a+c, b+c)$ ?
 
 ???- success "Solution 53"
+
+    __a)__ Notons $A = PGCD(a, a+5)$ et $B = PGCD(b, b+5)$. Ce sont des diviseurs de $5$, ils sont donc égaux soit à $1$, soit à $5$.
+    Si $A = B$, en vertu de l'égalité $PPCM(x,y).PGCD(x,y) = xy$, l'équation devient $a(a+5) = b(b+5)$, ce qui implique $a = b$ puisque $a$ et $b$ sont positifs.
+    Par symétrie, on peut supposer $A=1$ et $B=5$ pour le cas restant. Dans ce cas, $b$ est un multiple de $5$, disons $b=5b'$ et l'équation devient: $a(a+5) = b'(5b'+5) = 5b'(b'+1)$. On en déduit que $5$ divise $a$, ce qui contredit $A=1$.
+
+    __b__) La réponse est non. Supposons, par l'absurde qu'il existe $a, b$ et $c$ solutions. Notons $m=PPCM(a,b) = PPCM(a+c, b+c)$. Soit $p$ un nombre premier diviseur commun de $a$ et $b$. Alors $p$ divise $m$ et donc $p$ divise $a+c$ ou $b+c$. Dans un cas, comme dans l'autre, il divise $c$. En posant $a' = \frac{a}{p}$, $b' = \frac{b}{p}$ et $c'=\frac{c}{p}$, on obtient un nouveau triplet solution. En itérant le procédé, on peut supposer que $a$ et $b$ sont premiers entre eux dès le commencement.
+
+    Dans ces conditions, $m=ab$. Soit $p$ un diviseur premier de $a+c$ et $b+c$. Alors $p$ divise $m$, et donc il divise soit $a$, soit $b$. Il divise donc $c$ et donc $a$ et $b$. Cela est impossible car $a$ et $b$ sont premiers entre eux. Du coup, $a+c$ et $b+c$ sont également premiers entre eux et l'équation devient:
+
+    \[ab = (a+b)(b+c)\]
+
+    qui n'a manifestement pas de solution en entiers strictement positifs.
 
 !!! example "Exercice $54^{**}$"
 
