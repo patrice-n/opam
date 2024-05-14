@@ -52,5 +52,6 @@ Il contiendrait des ressources (cours, astuces) et exercices d'olympiades ou com
     <ul>
         <li>6 Mai, 2024: Mis-à-jour du contenu relatif aux solutions de la <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/exercises/exercises-second-sequence">seconde série d'exercices premiers concepts arithmétique</a></li>
         <li>7 Mai, 2024: Ajout du contenu relatif à la <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/exercises/exercises-third-sequence">troisième série d'exercices premiers concepts arithmétique</a></li>
+        <li>14 Mai, 2024: Ajout de solutions relatif à la <a href="https://patrice-n.github.io/opam/course/nt/first-concepts/exercises/exercises-third-sequence">troisième série d'exercices premiers concepts arithmétique</a></li>
     </ul>
 </details>
