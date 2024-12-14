@@ -316,9 +316,9 @@ comments: true
 
     _Commentaire_. Les nombres de la forme $2^{p} - 1$ où $p$ est un nombre premier sont appelés _nombres de Mersenne_. On dispose d'algorithmes spécifiques pour tester leur primalité. C'est pourquoi les plus grands nombres premiers connus à ce jour sont des nombres de Mersenne, le plus grand étant:
 
-    \[2^{82 589 933} - 1\]
+    \[2^{136 279 841} - 1\]
     
-    découvert le $7$ décembre $2018$.
+    découvert le $12$ octobre $2024$.
 
 !!! example "Exercice $38^{*}$ (URSS 61)"
 
