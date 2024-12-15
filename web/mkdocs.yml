@@ -77,7 +77,7 @@ markdown_extensions:
         - docs
 
 plugins:
-  - offline
+  # - offline # commenting to test PR on termux.
   - search
   - literate-nav:
       nav_file: navigation.md
