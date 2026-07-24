@@ -17,6 +17,12 @@ Il contiendrait des ressources (cours, astuces) et exercices d'olympiades ou com
 * `Olympiades panafricaines de Mathématiques` - Exercices posés aux OPAM
 * `Autres compétitions de mathématiques` - Par exemple, miss mathématiques, concours général français, olympiades régionales
 
+## Quelques liens utiles
+
+* `Site de KouakouSchool décrivant les olympiades` - [Kouakouschool](https://kouakouschool.com/olympiades-de-mathematiques/)
+* `Site de la société de mathématiques de Côte d'Ivoire` - [SMCI](https://societemathematiqueci.org/opam/)
+* `Site officiel des Olympiades panafricaines de Mathématiques` - [OPAM](https://www.pamoofficial.org)
+
 ## Les mises à jours
 
 <details open>
