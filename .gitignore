@@ -5,3 +5,4 @@ web/docs/.DS_Store
 web/docs/opam/.DS_Store
 web/docs/opam/opam-2023/.DS_Store
 web/site
+opamenv-py311/
